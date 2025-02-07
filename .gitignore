@@ -1,7 +1,6 @@
 .DS_Store
 /node_modules/
 /dist/
-.env
 *.csv
 dump.rdb
 /mongo-data
@@ -40,3 +39,4 @@ apps/js-sdk/firecrawl/dist
 .vscode
 llm-links.txt
 mapped-links.txt
+config.bat
