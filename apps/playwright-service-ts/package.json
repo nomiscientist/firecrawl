@@ -4,9 +4,9 @@
   "description": "scraper api with playwright",
   "main": "api.ts",
   "scripts": {
-    "start": "node dist/api.js",
-    "build": "tsc",
-    "dev": "ts-node api.ts"
+    "start": "node init && node dist/api.js",
+    "build": "node init && tsc",
+    "dev": "node init && ts-node api.ts"
   },
   "keywords": [],
   "author": "Jeff Pereira",
